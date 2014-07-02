@@ -180,6 +180,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F3C1F891963AB3E000FD8A4 /* MainScene */ = {
+			isa = PBXGroup;
+			children = (
+				B7378992180767190076A88C /* MainScene.h */,
+				B7378993180767190076A88C /* MainScene.m */,
+				1FB1061519632B4400D27EEB /* FirstTimeIntroLayer.h */,
+				1FB1061619632B4400D27EEB /* FirstTimeIntroLayer.m */,
+				1FB1061719632B4400D27EEB /* FirstTimeIntroTwoLayer.h */,
+				1FB1061819632B4400D27EEB /* FirstTimeIntroTwoLayer.m */,
+				1FB1062D19632B4400D27EEB /* MainMenuLayer.h */,
+				1FB1062E19632B4400D27EEB /* MainMenuLayer.m */,
+				1FB1063519632B4400D27EEB /* SkipIntoLayer.h */,
+				1FB1063619632B4400D27EEB /* SkipIntoLayer.m */,
+			);
+			name = MainScene;
+			sourceTree = "<group>";
+		};
+		1F3C1F8A1963AB54000FD8A4 /* LeagueScene */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1061B19632B4400D27EEB /* LeagueInfo.h */,
+				1FB1061C19632B4400D27EEB /* LeagueInfo.m */,
+				1FB1061D19632B4400D27EEB /* LeagueLayer.h */,
+				1FB1061E19632B4400D27EEB /* LeagueLayer.m */,
+				1FB1061F19632B4400D27EEB /* LeagueScene.h */,
+				1FB1062019632B4400D27EEB /* LeagueScene.m */,
+			);
+			name = LeagueScene;
+			sourceTree = "<group>";
+		};
+		1F3C1F8B1963AB64000FD8A4 /* LevelScene */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1062119632B4400D27EEB /* Level_0First.h */,
+				1FB1062219632B4400D27EEB /* Level_0First.m */,
+				1FB1062319632B4400D27EEB /* Level_1.h */,
+				1FB1062419632B4400D27EEB /* Level_1.m */,
+				1FB1062519632B4400D27EEB /* Level_1MC.h */,
+				1FB1062619632B4400D27EEB /* Level_1MC.m */,
+				1FB1062719632B4400D27EEB /* Level_1MCBoss.h */,
+				1FB1062819632B4400D27EEB /* Level_1MCBoss.m */,
+				1FB1062919632B4400D27EEB /* Level00.h */,
+				1FB1062A19632B4400D27EEB /* Level00.m */,
+				1FB1062B19632B4400D27EEB /* LevelScene.h */,
+				1FB1062C19632B4400D27EEB /* LevelScene.m */,
+			);
+			name = LevelScene;
+			sourceTree = "<group>";
+		};
+		1F3C1F8C1963AB7E000FD8A4 /* PlayerInfoScene */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1063119632B4400D27EEB /* PlayerInfoLayer.h */,
+				1FB1063219632B4400D27EEB /* PlayerInfoLayer.m */,
+				1FB1063319632B4400D27EEB /* PlayerInfoScene.h */,
+				1FB1063419632B4400D27EEB /* PlayerInfoScene.m */,
+				1FB1063719632B4400D27EEB /* SpriteSaber.h */,
+				1FB1063819632B4400D27EEB /* SpriteSaber.m */,
+			);
+			name = PlayerInfoScene;
+			sourceTree = "<group>";
+		};
+		1F3C1F8D1963AB95000FD8A4 /* GameOBJ */ = {
+			isa = PBXGroup;
+			children = (
+				1FB1060F19632B4400D27EEB /* ClearCount.h */,
+				1FB1061019632B4400D27EEB /* ClearCount.m */,
+				1FB1061119632B4400D27EEB /* Dialog.h */,
+				1FB1061219632B4400D27EEB /* Dialog.m */,
+				1FB1061319632B4400D27EEB /* FailCount.h */,
+				1FB1061419632B4400D27EEB /* FailCount.m */,
+				1FB1061919632B4400D27EEB /* HPMPInfo.h */,
+				1FB1061A19632B4400D27EEB /* HPMPInfo.m */,
+				1FB1062F19632B4400D27EEB /* PauseSetting.h */,
+				1FB1063019632B4400D27EEB /* PauseSetting.m */,
+			);
+			name = GameOBJ;
+			sourceTree = "<group>";
+		};
 		9222E2B918734FF800A246C7 /* libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,52 +272,13 @@
 			children = (
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				B7378992180767190076A88C /* MainScene.h */,
-				B7378993180767190076A88C /* MainScene.m */,
 				1FB1060D19632B4400D27EEB /* CCAlertView.h */,
 				1FB1060E19632B4400D27EEB /* CCAlertView.m */,
-				1FB1060F19632B4400D27EEB /* ClearCount.h */,
-				1FB1061019632B4400D27EEB /* ClearCount.m */,
-				1FB1061119632B4400D27EEB /* Dialog.h */,
-				1FB1061219632B4400D27EEB /* Dialog.m */,
-				1FB1061319632B4400D27EEB /* FailCount.h */,
-				1FB1061419632B4400D27EEB /* FailCount.m */,
-				1FB1061519632B4400D27EEB /* FirstTimeIntroLayer.h */,
-				1FB1061619632B4400D27EEB /* FirstTimeIntroLayer.m */,
-				1FB1061719632B4400D27EEB /* FirstTimeIntroTwoLayer.h */,
-				1FB1061819632B4400D27EEB /* FirstTimeIntroTwoLayer.m */,
-				1FB1061919632B4400D27EEB /* HPMPInfo.h */,
-				1FB1061A19632B4400D27EEB /* HPMPInfo.m */,
-				1FB1061B19632B4400D27EEB /* LeagueInfo.h */,
-				1FB1061C19632B4400D27EEB /* LeagueInfo.m */,
-				1FB1061D19632B4400D27EEB /* LeagueLayer.h */,
-				1FB1061E19632B4400D27EEB /* LeagueLayer.m */,
-				1FB1061F19632B4400D27EEB /* LeagueScene.h */,
-				1FB1062019632B4400D27EEB /* LeagueScene.m */,
-				1FB1062119632B4400D27EEB /* Level_0First.h */,
-				1FB1062219632B4400D27EEB /* Level_0First.m */,
-				1FB1062319632B4400D27EEB /* Level_1.h */,
-				1FB1062419632B4400D27EEB /* Level_1.m */,
-				1FB1062519632B4400D27EEB /* Level_1MC.h */,
-				1FB1062619632B4400D27EEB /* Level_1MC.m */,
-				1FB1062719632B4400D27EEB /* Level_1MCBoss.h */,
-				1FB1062819632B4400D27EEB /* Level_1MCBoss.m */,
-				1FB1062919632B4400D27EEB /* Level00.h */,
-				1FB1062A19632B4400D27EEB /* Level00.m */,
-				1FB1062B19632B4400D27EEB /* LevelScene.h */,
-				1FB1062C19632B4400D27EEB /* LevelScene.m */,
-				1FB1062D19632B4400D27EEB /* MainMenuLayer.h */,
-				1FB1062E19632B4400D27EEB /* MainMenuLayer.m */,
-				1FB1062F19632B4400D27EEB /* PauseSetting.h */,
-				1FB1063019632B4400D27EEB /* PauseSetting.m */,
-				1FB1063119632B4400D27EEB /* PlayerInfoLayer.h */,
-				1FB1063219632B4400D27EEB /* PlayerInfoLayer.m */,
-				1FB1063319632B4400D27EEB /* PlayerInfoScene.h */,
-				1FB1063419632B4400D27EEB /* PlayerInfoScene.m */,
-				1FB1063519632B4400D27EEB /* SkipIntoLayer.h */,
-				1FB1063619632B4400D27EEB /* SkipIntoLayer.m */,
-				1FB1063719632B4400D27EEB /* SpriteSaber.h */,
-				1FB1063819632B4400D27EEB /* SpriteSaber.m */,
+				1F3C1F891963AB3E000FD8A4 /* MainScene */,
+				1F3C1F8D1963AB95000FD8A4 /* GameOBJ */,
+				1F3C1F8A1963AB54000FD8A4 /* LeagueScene */,
+				1F3C1F8B1963AB64000FD8A4 /* LevelScene */,
+				1F3C1F8C1963AB7E000FD8A4 /* PlayerInfoScene */,
 			);
 			name = Source;
 			sourceTree = "<group>";
