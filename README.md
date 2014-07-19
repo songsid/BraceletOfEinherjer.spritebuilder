@@ -1,3 +1,3 @@
 BraceletOfEinherjer.spritebuilder
 =================================
-7887497
+s7887497
